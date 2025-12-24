@@ -1,0 +1,51 @@
+# Microsoft 365 Agent SDK and Azure dependencies
+microsoft-agents>=0.5.0
+azure-identity>=1.15.0
+azure-ai-inference>=1.0.0b1
+msgraph-sdk>=1.0.0
+botbuilder-core>=4.15.0
+botbuilder-schema>=4.15.0
+
+# AI and Language Models
+openai>=1.12.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+
+# Semantic Kernel for multi-agent orchestration
+semantic-kernel>=0.9.0
+
+# Vector Database for RAG
+chromadb>=0.4.22
+faiss-cpu>=1.7.4
+
+# Web Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+
+# Database
+sqlalchemy>=2.0.25
+alembic>=1.13.1
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Utilities
+requests>=2.31.0
+aiohttp>=3.9.1
+python-dateutil>=2.8.2
+
+# Teams App Integration
+botframework-connector>=4.15.0
+msteams>=0.1.17
+
+# Logging and Monitoring
+structlog>=24.1.0
+python-json-logger>=2.0.7
+
+# Testing
+pytest>=7.4.4
+pytest-asyncio>=0.23.3
+pytest-cov>=4.1.0
